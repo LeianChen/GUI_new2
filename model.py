@@ -205,16 +205,16 @@ model_menu.add_command(label="Run model", command=run)
 #################################################################
 ###########Calculate the distance between agents.################
 #################################################################
-'''
-def distance_between(agents_row_a, agents_row_b):
-    return (((agents_row_a.x - agents_row_b.x)**2) + 
-    ((agents_row_a.y - agents_row_b.y)**2))**0.5
 
+#def distance_between(agents_row_a, agents_row_b):
+#    return (((agents_row_a.x - agents_row_b.x)**2) + 
+#    ((agents_row_a.y - agents_row_b.y)**2))**0.5
+#
+#
+#for agents_row_a in agents:
+#    for agents_row_b in agents:
+#        distance = distance_between(agents_row_a, agents_row_b)
 
-for agents_row_a in agents:
-    for agents_row_b in agents:
-        distance = distance_between(agents_row_a, agents_row_b)
-'''
 
 
 root.mainloop()
